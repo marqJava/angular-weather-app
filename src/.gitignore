@@ -1,0 +1,25 @@
+# .gitignore
+
+# Ignore Node.js build artifacts
+/node_modules
+/dist
+/coverage
+
+# Ignore local development environment files
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
+/src/environments/environment.staging.ts
+# Add more environment files if needed
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore sensitive or private information (e.g., API keys)
+/src/environments/api-keys.ts
